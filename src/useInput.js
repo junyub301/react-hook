@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import ReactDOM from 'react-dom'
+import  {useState} from 'react';
 
 const useInput = (initialValue, validator) => {
     const[value, setValue] = useState(initialValue);

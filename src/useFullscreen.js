@@ -1,10 +1,9 @@
-import React, {useState, useEffect, useRef} from 'react';
+import { useRef} from 'react';
 
 
 const useFullscreen = (callback) => {
     const element = useRef();
     const triggerFull = () => {
-        console.log("////")
         if (element.current) {
             element.current.requestFullscreen(); 
             if (callback && typeof callback === "function"){

@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from 'react';
+import  { useEffect, useRef} from 'react';
 
 
 const useFadeIn = (duration = 1, delay = 0) => {

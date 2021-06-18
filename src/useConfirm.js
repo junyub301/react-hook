@@ -1,9 +1,8 @@
-import React, {useState, useEffect, useRef} from 'react';
-import ReacDOM from 'react-dom';
+
 
 const useConfirm = (message = "", onConfirm, onCancle ) => {
     
-    if (!onConfirm && typeof onConfirm !== "function") {
+    if (!onConfirm || typeof onConfirm !== "function") {
         return;
     }
     

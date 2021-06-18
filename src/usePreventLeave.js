@@ -1,5 +1,3 @@
-import React, {useState, useEffect, useRef} from 'react';
-import ReacDOM from 'react-dom';
 
 
 const usePreventLeave = () => {
